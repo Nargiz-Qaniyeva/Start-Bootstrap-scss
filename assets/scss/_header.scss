@@ -1,0 +1,33 @@
+header{
+    background-color: bisque;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        align-items: center;
+        .logo{
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Lato', sans-serif;
+                padding-left: 20px; 
+            }
+            
+        }
+        .button1{
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+                border-radius: 4px;
+                padding: 14px 20px;
+                border: 3px;
+                width: 100%;
+                opacity: 0.9;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+    }
+    
+}
